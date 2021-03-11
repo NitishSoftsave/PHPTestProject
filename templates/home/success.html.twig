@@ -1,0 +1,17 @@
+{% block head_css %}
+    <link rel="stylesheet" type="text/css" href="\css\style.css">
+{% endblock %}
+{% block body %}
+    <div class="example-wrapper">
+        <div class="content">
+        <div class="container">
+            <h1 class="head">Result Data </h1>
+            <div class="data">
+            The timezone {{data['timezone']}} has {{data['offset']}} minutes offset to UTC.<br />
+            February in this year has {{data['febDays'] }} days.<br />
+            Specified month {{data['givenMonth']}} has {{data['currentMonthDays'] }} days.
+            </div>
+        </div>
+        </div>
+    </div>
+{% endblock %}

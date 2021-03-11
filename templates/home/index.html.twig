@@ -1,0 +1,23 @@
+{% block head_css %}
+    <link rel="stylesheet" type="text/css" href="\css\style.css">
+{% endblock %}
+{% form_theme form 'bootstrap_4_layout.html.twig' %}
+{% block body %}
+
+    <div class="test">
+        <div class="login-wrap">
+            <div class="login-html">
+                <h3>Enter Data</h3>
+                {{ form_start(form) }}
+                {{ form_widget(form) }}
+                {{ form_end(form) }}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+
+
+
+
