@@ -86,6 +86,7 @@ h3{
 }
 #form .form-group .button{
     background:#1161ee;
+    cursor: pointer;
 }
 
 .content{
