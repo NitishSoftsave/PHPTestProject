@@ -1,12 +1,11 @@
 # PHPTestProject
 
-Installatin Steps:
+Setup notes:
 
 #Clone the Project to download the contents
 
- cd projects/
- git clone ...
-
 #Do composer install to have project dependencies
- cd my-project/
- composer install
+ 
+ - composer install
+
+#run the server with starting point of /public
